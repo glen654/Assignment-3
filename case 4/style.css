@@ -1,122 +1,60 @@
-/*Section 1*/
-#section1{
+section {
     width: 100vw;
     height: 100vh;
     position: relative;
 }
 
-#section1>div{
+section > div {
     position: sticky;
+    top: 0;
     width: 100vw;
     height: 8vh;
-    background-color: red;
 }
 
-#section1>div>h2{
+section > div > h2 {
     margin: auto;
     color: white;
     padding: 25px 0 0 10px ;
 }
 
-#section1>h1{
+section > h1 {
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
     margin: 0;
     font-size: 60px;
+    color: yellow;
 }
 
-/*Section 2*/
-#section2{
-    width: 100vw;
-    height: 100vh;
-    position: relative;
+#section1 {
+    background-color: white;
+}
+
+#section1 > div {
+    background-color: red;
+}
+
+#section2 {
     background-color: darkblue;
 }
 
-#section2>div{
-    position: sticky;
-    width: 100vw;
-    height: 8vh;
+#section2 > div {
     background-color: dodgerblue;
 }
 
-#section2>div>h2{
-    margin: auto;
-    color: white;
-    padding: 25px 0 0 10px ;
-}
-
-#section2>h1{
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    margin: 0;
-    font-size: 60px;
-    color: white;
-}
-
-/*Section 3*/
-#section3{
-    width: 100vw;
-    height: 100vh;
-    position: relative;
+#section3 {
     background-color: grey;
 }
 
-#section3>div{
-    position: sticky;
-    width: 100vw;
-    height: 8vh;
+#section3 > div {
     background-color: darkgrey;
 }
 
-#section3>div>h2{
-    margin: auto;
-    color: white;
-    padding: 25px 0 0 10px ;
-}
-
-#section3>h1{
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    margin: 0;
-    font-size: 60px;
-    color: white;
-}
-
-/*Section 4*/
-
-#section4{
-    width: 100vw;
-    height: 100vh;
-    position: relative;
+#section4 {
     background-color: red;
 }
 
-#section4>div{
-    position: sticky;
-    width: 100vw;
-    height: 8vh;
+#section4 > div {
     background-color: darkred;
-}
-
-#section4>div>h2{
-    margin: auto;
-    color: white;
-    padding: 25px 0 0 10px ;
-}
-
-#section4>h1{
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    margin: 0;
-    font-size: 60px;
-    color: white;
 }
