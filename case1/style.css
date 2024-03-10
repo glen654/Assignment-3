@@ -1,0 +1,158 @@
+section{
+    width: 100vw;
+    height: 100vh;
+
+    position: relative;
+}
+
+div{
+    width: 50%;
+    height: 50%;
+
+    position: absolute;
+}
+#div1{
+    background-color: red;
+}
+
+#div2{
+    background-color: green;
+
+    right: 0;
+}
+
+#div3{
+    background-color: yellow;
+
+    left: 0;
+    bottom: 0;
+}
+
+#div4{
+    background-color: deeppink;
+
+    right: 0;
+    bottom: 0;
+}
+
+.div-circle{
+    width: 250px;
+    aspect-ratio: 1/1;
+    background-color: white;
+
+    border-radius: 100%;
+
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: auto;
+}
+
+.div-square{
+    width: 50%;
+    height: 50%;
+
+    background-color: red;
+
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: auto;
+}
+
+#div5{
+    width: 300px;
+    height: 300px;
+
+    background-color: white;
+
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: auto;
+}
+
+#circle{
+    width: 150px;
+    aspect-ratio: 1/1;
+
+    border-radius: 100%;
+    background-color: red;
+
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: auto;
+}
+
+#div6{
+    width: 150px;
+    height: 150px;
+
+    background-color: white;
+
+    border-radius: 0 0 150px 0;
+}
+
+#div7{
+    width: 150px;
+    height: 150px;
+
+    background-color: white;
+
+    right: 0;
+    top: 0;
+
+    border-radius: 0 0 0 150px;
+}
+
+#div8{
+    width: 150px;
+    height: 150px;
+
+    background-color: white;
+
+    left: 0;
+    bottom: 0;
+
+    border-radius: 0 150px 0 0;
+}
+
+#div9{
+    width: 150px;
+    height: 150px;
+
+    background-color: white;
+
+    right: 0;
+    bottom: 0;
+
+    border-radius: 150px 0 0 0;
+}
+
+#div10{
+    width: 200px;
+    height: 100px;
+    transform: translateX(-50%);
+
+    background-color: white;
+    left: 50%;
+
+    border-radius: 0 0 150px 150px;
+
+}
+
+#div11{
+    width: 200px;
+    height: 100px;
+    transform: translateX(-50%);
+
+    background-color: white;
+    left: 50%;
+    bottom: 0;
+    border-radius: 150px 150px 0 0;
+}

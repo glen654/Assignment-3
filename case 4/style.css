@@ -1,0 +1,39 @@
+section{
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+    overflow: hidden;
+}
+
+div{
+    width: 100vw;
+    position: sticky;
+    background-color: red;
+    top: 0;
+    padding: 5px;
+}
+
+p{
+    color: white;
+    font-weight: bold;
+}
+
+#large{
+    width: 100vw;
+    height: 100vh;
+    background-color: white;
+    position: absolute;
+    top: 60px;
+}
+
+#middle{
+    position: absolute;
+    color: black;
+    text-align: center;
+    top: 300px;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: auto;
+    font-size: 100px;
+}

@@ -1,0 +1,159 @@
+body{
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+section{
+    width: 100vw;
+    height: 100vh;
+
+    position: relative;
+}
+
+header{
+    width: 100vw;
+    height: 15vh;
+    background-color: white;
+    position: sticky;
+}
+
+#navigation{
+    position: absolute;
+    bottom: 50px;
+    right: 45px;
+}
+
+#navigation>a{
+    text-decoration: none;
+    margin-left: 20px;
+    color: black;
+    font-weight: bold;
+}
+
+#navigation>a:hover{
+    color: cadetblue;
+}
+
+#sidebar{
+    height: 85vh;
+    width: 15vw;
+    background-color: purple;
+}
+
+#sidebar>div>a{
+    display: block;
+    padding-left: 40px;
+    margin-bottom: 30px;
+    text-decoration: none;
+    color: white;
+}
+
+#sidebar>div>a:first-child{
+    padding-top: 30px;
+}
+
+#sidebar>div>a:hover{
+    color: cadetblue;
+}
+
+hr{
+    width: 85vw;
+    position: absolute;
+    right: 0;
+    padding: 0;
+    margin: 0;
+    height: 12px;
+    background-color: black;
+}
+
+#image{
+    width: 85vw;
+    height: 40vh;
+    position: absolute;
+    right: 0;
+    bottom: 440px;
+    background-color: white;
+}
+
+#box1{
+    display: inline-block;
+    position: absolute;
+    width: 340px;
+    height: 150px;
+    left:  0;
+    border: 2px solid black;
+    border-right: 3px solid green;
+    padding: 100px;
+    margin-left: 4px;
+    background-color: lightgrey;
+}
+
+#box2{
+    display: inline-block;
+    position: absolute;
+    width: 340px;
+    height: 150px;
+    top: 0;
+    right: 0;
+    bottom: 43px;
+    left: 0;
+    margin: auto;
+    border: 2px solid black;
+    border-right: 3px solid green;
+    padding: 100px;
+    background-color: lightgrey;
+}
+
+#box3{
+    display: inline-block;
+    position: absolute;
+    width: 337px;
+    height: 150px;
+    right:  0;
+    border: 2px solid black;
+    border-right: 3px solid green;
+    padding: 100px;
+    margin-right: 4px;
+    margin-bottom: 4px;
+    background-color: lightgrey;
+}
+
+#image>div>img{
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: auto;
+}
+
+#para{
+    width: 85vw;
+    height: 40vh;
+    position: absolute;
+    right: 0;
+    bottom: 70px;
+    background-color: white;
+}
+
+#para>p{
+    margin-left: 3px;
+}
+
+#footer{
+    width: 100vw;
+    height: 5vh;
+    position: absolute;
+    bottom: 1px;
+    background-color: grey;
+}
+
+#footer>p{
+    font-size: large;
+    text-align: center;
+    position: relative;
+    top: 20px;
+    margin: auto;
+    color: white;
+}
