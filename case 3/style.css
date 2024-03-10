@@ -54,6 +54,7 @@ section{
 }
 
 #div4{
+    text-align: center;
     width: 370px;
     aspect-ratio: 1/1;
     background-color: plum;
@@ -63,7 +64,6 @@ section{
     right: 0;
     left: 0;
     margin: auto;
-    text-align: center;
 }
 
 
